@@ -1,0 +1,38 @@
+{
+  "name": "react-poc-template",
+  "version": "1.0.0",
+  "description": "A ReactJS template to build proof-of-concept applications or demos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Kevin Farrugia",
+    "email": "hello@imkev.dev",
+    "path": "https://github.com/kevinfarrugia"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
